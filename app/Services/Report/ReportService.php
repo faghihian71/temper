@@ -22,7 +22,6 @@ class ReportService implements ReportServiceInterface
 
     public function getChartsData()
     {
-        // TODO: Implement getChartsData() method.
        return [
            [
                'user_id' => '3121',
