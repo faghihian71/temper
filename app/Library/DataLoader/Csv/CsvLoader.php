@@ -6,10 +6,12 @@
  * Time: 22:31
  */
 
-namespace App\Library\Csv;
+namespace App\Library\DataLoader\Csv;
 
 
-class CsvLoader
+use App\Library\DataLoader\DataLoaderInterface;
+
+class CsvLoader implements DataLoaderInterface
 {
 
     private $filePath;
@@ -20,7 +22,7 @@ class CsvLoader
         $this->filePath = $filePath;
     }
 
-    public function fetchCsvData()
+    public function fetchAllData()
     {
 
         $headers = [];
@@ -42,8 +44,6 @@ class CsvLoader
             }
             fclose($handle);
         }
-
-        var_dump($arrayResult);
 
         return $arrayResult;
 

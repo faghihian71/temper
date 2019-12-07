@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb276c70-3988-406f-81f5-e5d558ec5af5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/app/Repositories/OnboardingFlow/CsvOnboardingFlowRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/OnboardingFlow/CsvOnboardingFlowRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Library/Csv/CsvLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Library/DataLoader/Csv/CsvLoader.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/OnboardingFlow/CsvOnboardingFlowRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/OnboardingFlow/OnboardingFlowRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Repositories/RepositoryServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Repositories/RepositoryServiceProvider.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/Unit/CsvOnboardingFlowRepositoryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Unit/CsvOnboardingFlowRepositoryTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +23,8 @@
       <file leaf-file-name="ReportServiceTest.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/Unit/ReportServiceTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="139">
+              <caret line="22" column="113" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="113" />
               <folding>
                 <element signature="e#30#49#0#PHP" expanded="true" />
               </folding>
@@ -29,11 +32,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportServiceInterface.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Services/Report/ReportServiceInterface.php">
+      <file leaf-file-name="ExampleTest.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="32" />
+            <state relative-caret-position="212">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding>
+                <element signature="e#30#49#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -47,29 +53,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OnboardingFlowRepositoryInterface.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Repositories/OnboardingFlow/OnboardingFlowRepositoryInterface.php">
+      <file leaf-file-name="OnboardingFlowRepository.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Repositories/OnboardingFlow/OnboardingFlowRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CsvOnboardingFlowRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Repositories/OnboardingFlow/CsvOnboardingFlowRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+            <state relative-caret-position="233">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="49" />
+              <folding>
+                <element signature="e#145#175#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="CsvLoader.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Library/Csv/CsvLoader.php">
+        <entry file="file://$PROJECT_DIR$/app/Library/DataLoader/Csv/CsvLoader.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="22" column="32" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="32" />
+            <state relative-caret-position="51">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DataLoaderInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Library/DataLoader/DataLoaderInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -77,10 +86,10 @@
       <file leaf-file-name="CsvOnboardingFlowRepositoryTest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/Unit/CsvOnboardingFlowRepositoryTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+            <state relative-caret-position="189">
+              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
               <folding>
-                <element signature="e#30#94#0#PHP" expanded="true" />
+                <element signature="e#31#72#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,8 +103,20 @@
       <file leaf-file-name="RepositoryServiceProvider.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Repositories/RepositoryServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="215">
+              <caret line="23" column="32" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="32" />
+              <folding>
+                <element signature="e#36#66#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepositoryServiceProvider.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Library/DataLoader/RepositoryServiceProvider.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="68" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -117,6 +138,7 @@
       <find>APP_DEBUG</find>
       <find>App\Services\Oauth\OAuthService</find>
       <find>$arrayResult</find>
+      <find>dataloader</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/app/Http</dir>
@@ -143,7 +165,6 @@
         <option value="$PROJECT_DIR$/app/Providers/OAuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Providers/RepositoryServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Services/RepositoryServiceProvider.php" />
-        <option value="$PROJECT_DIR$/app/Repositories/RepositoryServiceProvider.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/app/Services/Oauth/OAuthService.php" />
@@ -158,6 +179,10 @@
         <option value="$PROJECT_DIR$/app/Library/Csv/CsvReader.php" />
         <option value="$PROJECT_DIR$/app/Library/Csv/CsvLoader.php" />
         <option value="$PROJECT_DIR$/app/Repositories/OnboardingFlow/CsvOnboardingFlowRepository.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/OnboardingFlow/OnboardingFlowRepository.php" />
+        <option value="$PROJECT_DIR$/app/Repositories/RepositoryServiceProvider.php" />
+        <option value="$PROJECT_DIR$/app/Library/DataLoader/DataLoaderInterface.php" />
+        <option value="$PROJECT_DIR$/app/Library/DataLoader/Csv/CsvLoader.php" />
         <option value="$PROJECT_DIR$/tests/Unit/CsvOnboardingFlowRepositoryTest.php" />
       </list>
     </option>
@@ -316,6 +341,14 @@
               <item name="temper_project" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Library" type="462c0819:PsiDirectoryNode" />
+              <item name="DataLoader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="temper_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="temper_project" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Library" type="462c0819:PsiDirectoryNode" />
+              <item name="DataLoader" type="462c0819:PsiDirectoryNode" />
               <item name="Csv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -340,6 +373,12 @@
               <item name="temper_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="temper_project" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="temper_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="temper_project" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="csv" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="temper_project" type="b2602c69:ProjectViewProjectNode" />
@@ -370,15 +409,16 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Library/DataLoader" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Api/Phonebook" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Api/Auth" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/Library/DataLoader" />
       <recent name="$PROJECT_DIR$/public/csv" />
       <recent name="$PROJECT_DIR$/tests/Unit" />
       <recent name="$PROJECT_DIR$/app/Repositories" />
       <recent name="$PROJECT_DIR$/app/Services" />
-      <recent name="$PROJECT_DIR$/app/Providers" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -416,7 +456,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24183000" />
+    <option name="totallyTimeSpent" value="25527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="699" extended-state="6" />
@@ -464,20 +504,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/routes/api.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3026">
-          <caret line="178" column="6" lean-forward="true" selection-start-line="178" selection-start-column="6" selection-end-line="178" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Repositories/Oauth/OauthPasswordRepositoryInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -698,16 +724,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding>
-            <element signature="e#30#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Services/Report/ReportServiceInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -732,23 +748,6 @@
     <entry file="file://$PROJECT_DIR$/public/csv/temper_data.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ReportServiceTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#30#49#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/RepositoryServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_9.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
@@ -756,26 +755,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Library/Csv/CsvLoader.php">
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ExampleTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="117">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="32" />
+        <state relative-caret-position="212">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#30#49#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Repositories/OnboardingFlow/CsvOnboardingFlowRepository.php">
+    <entry file="file://$PROJECT_DIR$/app/Library/DataLoader/RepositoryServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+        <state relative-caret-position="204">
+          <caret line="12" column="68" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/RepositoryServiceProvider.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="23" column="32" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="32" />
+          <folding>
+            <element signature="e#36#66#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Library/DataLoader/DataLoaderInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Repositories/OnboardingFlow/OnboardingFlowRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="49" />
+          <folding>
+            <element signature="e#145#175#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ReportServiceTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="22" column="113" lean-forward="true" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="113" />
+          <folding>
+            <element signature="e#30#49#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Library/DataLoader/Csv/CsvLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="36" selection-end-line="8" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/Unit/CsvOnboardingFlowRepositoryTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="20" column="66" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+        <state relative-caret-position="189">
+          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
           <folding>
-            <element signature="e#30#94#0#PHP" expanded="true" />
+            <element signature="e#31#72#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

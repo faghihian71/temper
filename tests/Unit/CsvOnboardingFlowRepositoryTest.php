@@ -2,7 +2,10 @@
 
 namespace Tests\Unit;
 
-use App\Repositories\OnboardingFlow\CsvOnboardingFlowRepository;
+
+use App\Library\DataLoader\Csv\CsvLoader;
+use App\Library\DataLoader\DataLoaderInterface;
+use App\Repositories\OnboardingFlow\OnboardingFlowRepository;
 use Tests\TestCase;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
@@ -21,11 +24,13 @@ class CsvOnboardingFlowRepositoryTest extends TestCase
     public function testCanLoadDataWithCsvFileWithTemperSampleFile()
     {
 
-        $csvRepository = new CsvOnboardingFlowRepository();
+        $csvLoader = new CsvLoader(public_path() . '/csv/temper_data.csv');
 
-        $testFilePath = public_path() . '/csv/temper_data.csv';
-        $csvRepository->setCsvPath($testFilePath);
-        $result = $csvRepository->fetchAllDataOnboarding();
+
+        //Or you can mock DataLoader Interface
+        $respository = new OnboardingFlowRepository($csvLoader);
+
+        $result = $respository->fetchAllDataOnboarding($csvLoader);
 
         $this->assertIsArray($result);
         $this->assertEquals(count($result), 339);
