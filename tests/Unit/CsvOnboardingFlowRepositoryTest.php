@@ -18,16 +18,17 @@ class CsvOnboardingFlowRepositoryTest extends TestCase
         $this->assertTrue(true);
     }
 
-    public function testCanLoadDataWithCsvFile()
+    public function testCanLoadDataWithCsvFileWithTemperSampleFile()
     {
 
-        $csvLoader = new CsvOnboardingFlowRepository();
-        $testFilePath = public_path().'/csv/temper_data.csv';
-        $csvLoader->setCsvPath();
-        $result = $csvLoader->fetchAllDataOnboarding();
+        $csvRepository = new CsvOnboardingFlowRepository();
+
+        $testFilePath = public_path() . '/csv/temper_data.csv';
+        $csvRepository->setCsvPath($testFilePath);
+        $result = $csvRepository->fetchAllDataOnboarding();
 
         $this->assertIsArray($result);
-        $this->assertEquals(count($result) , 339);
+        $this->assertEquals(count($result), 339);
 
 
     }
