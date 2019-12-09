@@ -23,5 +23,25 @@ class ReportService implements ReportServiceInterface
     public function getChartsData()
     {
 
+
+
+        $onboardingData = $this->onBoardingFlowRepository->fetchAllDataOnboarding();
+
+        var_dump($onboardingData);
+        die();
+
+        $firstWeek = strtotime($onboardingData[0]['created_at']);
+        var_dump(\DateTime::createFromFormat('Y-m-d',$firstWeek ));
+        die();
+
+        foreach ($onboardingData as $data)
+        {
+            if($firstWeek != $data['created_at'])
+            {
+
+            }
+
+
+        }
     }
 }

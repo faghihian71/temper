@@ -37,10 +37,11 @@ class CsvLoader implements DataLoaderInterface
                 } else {
                     foreach ($headers as $key => $value) {
                         $arrayResult[$j][$key] = $data[$value];
+                        $j++;
                     }
                 }
                 $i++;
-                $j++;
+
             }
             fclose($handle);
         }
