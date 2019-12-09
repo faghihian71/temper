@@ -24,8 +24,9 @@ Route::post('auth/token', 'Api\Auth\AuthController@authenticate');
 Route::post('auth/refresh', 'Api\Auth\AuthController@refreshToken');
 
 
-Route::group(['prefix' => 'v1', 'middleware' => 'auth:api'], function() {
+Route::group(['prefix' => 'v1'], function() {
 
+    Route::get('/report/onboarding','Api\Report\OnboardingReportController@index');
 
 });
 
