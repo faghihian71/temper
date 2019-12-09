@@ -35,10 +35,12 @@ class CsvLoader implements DataLoaderInterface
                 if ($i == 0) {
                     $headers = array_flip($data);
                 } else {
+
                     foreach ($headers as $key => $value) {
                         $arrayResult[$j][$key] = $data[$value];
-                        $j++;
+
                     }
+                    $j++;
                 }
                 $i++;
 
