@@ -22,14 +22,6 @@ class ReportService implements ReportServiceInterface
 
     public function getChartsData()
     {
-       return [
-           [
-               'user_id' => '3121',
-               'created_at' => '2016-07-19',
-               'onboarding_perentage' => '40',
-               'count_applications' => '0',
-               'count_accepted_applications' => '0'
-           ]
-       ];
+
     }
 }
