@@ -177,8 +177,8 @@ return [
 
         //Oauth Service and Repository
         App\Providers\OAuthServiceProvider::class,
-        App\Repositories\RepositoryServiceProvider::class,
-        App\Services\ServicesServiceProvider::class
+    
+        
 
 
     ],

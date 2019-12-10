@@ -23,6 +23,21 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+            
+        $this->app->bind('App\Library\DataLoader\DataLoaderInterface', function ($app) {
+            return new \App\Library\DataLoader\Csv\CsvLoader(public_path().'/csv/temper_data.csv');
+        });
+
+       $this->app->bind(
+            'App\Repositories\OnboardingFlow\OnboardingFlowRepositoryInterface',
+            'App\Repositories\OnboardingFlow\OnboardingFlowRepository'
+        );
+
+
+        $this->app->bind(
+            'App\Services\Report\ReportServiceInterface',
+            'App\Services\Report\ReportService'
+        );
+
     }
 }
