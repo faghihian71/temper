@@ -60,15 +60,16 @@ class ReportServiceTest extends TestCase
 
 
             //start day of week
-            $dataToEqual = ['2019-07-19'=>
-                [
-                    '0'=>'4',
-                    '20'=>'4',
-                    '40'=>'4',
-                    '90'=>'2',
-                    '100'=>'1'
+            $dataToEqual = [
+                ['name'=>'2016-07-19',
+                 'data'=>[
+                    [0,4],
+                    [40,4],
+                    [90,2],
+                    [100,1]
                 ]
-            ];
+            ]];
+
 
             $this->assertEquals($chartData , $dataToEqual);
 
@@ -93,7 +94,7 @@ class ReportServiceTest extends TestCase
             ]);
             $reportService = new \App\Services\Report\ReportService($mock);
             $chartData = $reportService->getChartsData();
-            $this->assertArrayHasKey('2016-07-19', $chartData);
+            $this->assertEquals(1, count($chartData));
         });
 
 

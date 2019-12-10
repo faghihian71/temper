@@ -39,16 +39,18 @@ class ReportService implements ReportServiceInterface
         $resultArray = [];
         $currentTimeString = $currentDateObject->format('Y-m-d');
         $resultArray[$currentTimeString] = [];
+        $resultArray[$currentTimeString][0] = 0;
 
 
 
         foreach ($onboardingData as $row) {
-            $resultArray[$currentTimeString][0] = 0;
+
             $rowDate = \DateTime::createFromFormat('Y-m-d', $row['created_at']);
             $diffDays = $rowDate->diff($currentDateObject)->format("%d");
             if ($diffDays >= 7) {
                 $currentTimeString = $rowDate->format('Y-m-d');
                 $currentDateObject = $rowDate;
+                $resultArray[$currentTimeString][0] = 0;
             }
             //var_dump($resultArray[$currentTimeString][$row['onboarding_perentage']]);
             if (isset($resultArray[$currentTimeString][$row['onboarding_perentage']])) {
