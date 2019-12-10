@@ -17,4 +17,7 @@ class ReportOnboardingApiTest extends TestCase
         $response = $this->get('/api/v1/report/onboarding');
         $response->assertStatus(200);
     }
+
+
+
 }
