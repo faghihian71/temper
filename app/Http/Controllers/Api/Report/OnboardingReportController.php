@@ -19,9 +19,9 @@ class OnboardingReportController extends Controller
     {
 
         $chartData = $this->reportService->getChartsData();
-        return response()->json([
+        return response()->json(
             $chartData
-        ]);
+        );
 
     }
 }
