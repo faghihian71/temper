@@ -13,9 +13,9 @@ with respect to solid
 - front has implemented by **vue**, and vue highcharts 
 
 ## serve the project
-`composer install`
-`cp .env.example .env`
-`php artisan key:generate`
+`composer install`<br>
+`cp .env.example .env`<br>
+`php artisan key:generate`<br>
 `php artisan serve` 
 
 
