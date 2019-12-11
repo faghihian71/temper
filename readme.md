@@ -21,5 +21,5 @@ with respect to solid
 `php artisan serve` 
 
 ## run unit test
-./vendor/bin/phpunit
+`./vendor/bin/phpunit`
 
