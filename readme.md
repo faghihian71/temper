@@ -11,6 +11,8 @@ with respect to solid
 - implemented with **solid**
 - OAauth enabled for future use and showing importance of Oauth
 - front has implemented by **vue**, and vue highcharts 
+- has **feature test** and **unit test**
+
 
 ## serve the project
 `composer install`<br>
@@ -18,4 +20,6 @@ with respect to solid
 `php artisan key:generate`<br>
 `php artisan serve` 
 
+## run unit test
+./vendor/bin/phpunit
 
